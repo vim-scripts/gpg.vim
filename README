@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=660
+
+As I know little about vim scripts, this was just a thought which proved convenient for me. But I just noticed there's a new plugin called 'gnupg.vim' after this which is much better. Please download that instead. I tried to delete this from the server.
+
+This little plugin helps to edit "gpg" encrypted files. I use this because it's more convenient when you do not have GUI encrypt tools.
+
+How to use:
+just name the file with .gpg suffix, e.g. "something.gpg" and 
+vi -u ~/.vim/gpg.vim something.gpg
